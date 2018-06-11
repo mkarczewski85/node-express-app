@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,24 +14,24 @@
   },
   "license": "ISC",
   "dependencies": {
-    "body-parser": "1.15.0",
-    "cors": "2.7.1",
-    "dotenv": "2.0.0",
-    "ejs": "2.4.1",
-    "errorhandler": "1.4.3",
-    "express": "4.13.4",
-    "express-jwt": "3.3.0",
-    "express-session": "1.13.0",
-    "jsonwebtoken": "7.1.9",
-    "method-override": "2.3.5",
+    "body-parser": "1.18.3",
+    "cors": "2.8.4",
+    "dotenv": "6.0.0",
+    "ejs": "2.6.1",
+    "errorhandler": "1.5.0",
+    "express": "4.16.3",
+    "express-jwt": "5.3.1",
+    "express-session": "1.15.6",
+    "jsonwebtoken": "8.2.2",
+    "method-override": "2.3.10",
     "methods": "1.1.2",
-    "mongoose": "4.4.10",
-    "mongoose-unique-validator": "1.0.2",
-    "morgan": "1.7.0",
-    "passport": "0.3.2",
+    "mongoose": "5.1.4",
+    "mongoose-unique-validator": "2.0.1",
+    "morgan": "1.9.0",
+    "passport": "0.4.0",
     "passport-local": "1.0.0",
-    "request": "2.69.0",
+    "request": "2.87.0",
     "slug": "0.9.1",
-    "underscore": "1.8.3"
+    "underscore": "1.9.1"
   }
 }
